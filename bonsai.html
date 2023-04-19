@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bonsai Bob&rsquo;s Nursery</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bonsai.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Bonsai Bob&rsquo;s Nursery</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="bonsai.html">Bonsai</a></li>
+                    <li><a href="supplies.html">Supplies</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h2>Bonsai Image Submission</h2>
+                    <p>Enter a chance to win quarterly prizes by submitting an image of your bonsai. Prizes can be ranged from a discount code to any supplies.</p>
+                    <p>Required fields are marked with an asterisk&ast;.</p>
+                        <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+                            <label for="myName">*Name:</label>
+                                <input type="text" name="name" id="myName" required="required">
+                            <label for="myEMail">*E-Mail Address:</label>
+                                <input type="email" name="email" id="myEMail" required="required">
+                            <label for="myFile">*Image Submission</label>
+                                <input type="file" id="myFile" name="filename" required="required">
+                            <label for="myComments">Comments:</label>
+                                <textarea name="comment" id="myComments" rows="2" cols="30"></textarea>
+                            <input type="submit" value="Sumbit">
+                        </form>
+            </main>
+            <footer>
+                <br>Copyright &copy; Bonsai Bob&rsquo;s Nursery<br>
+                <a href="mailto:bob@bonsaibobsnursery.com">bob@bonsaibobsnursery.com</a> 
+            </footer>
+        </div>
+    </body>
+</html>
