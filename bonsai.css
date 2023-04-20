@@ -59,6 +59,9 @@ input, textarea {
 input[type="submit"] {
     margin-left: 140px;
 }
+img {
+    object-fit: scale-down;
+}
 footer {
     font-size: 75%; 
     text-align: center;
